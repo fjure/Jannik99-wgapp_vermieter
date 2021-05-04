@@ -1,0 +1,27 @@
+.top-bar .card{
+  display: inline-block;
+  width: 32%;
+}
+
+.unprocessed{
+  background-color: rgb(218, 55, 73);
+}
+
+.in-progress{
+  background-color: rgb(253, 192, 47);
+  margin: 0 2% 0 2%;
+}
+
+.done{
+  background-color: rgb(48, 166, 74);
+}
+
+.thick{
+  font-weight: bold;
+}
+
+.notebookwrapper{
+  display: block;
+  margin-top: 2%;
+  width: 32%;
+}

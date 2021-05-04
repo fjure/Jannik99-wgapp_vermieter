@@ -1,0 +1,14 @@
+<div class="componentContent">
+  <div class="row">
+    <div class="col-sm-2">
+      <app-navbar></app-navbar>
+    </div>
+    <div class="col">
+      <div class="card" id="content">
+        <div [ngSwitch]="util.controlpanelview">
+          <app-dashboard *ngSwitchCase="'dashboard'"></app-dashboard>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

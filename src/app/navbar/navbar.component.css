@@ -1,0 +1,16 @@
+.sidenav{
+  height: 100%;
+}
+
+.sidenav *{
+  margin-bottom: 10px;
+}
+
+.master{
+  width: 100%;
+}
+
+.slave{
+  width: 80%;
+  margin-left: 20%;
+}

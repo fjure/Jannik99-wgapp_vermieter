@@ -1,0 +1,44 @@
+<div class="componentContent">
+  <form class="card row" id="registerform">
+    <div class="card-title">
+      <h2>Registrieren</h2>
+      <button (click)="switchPage('front')" class="close" aria-label="Schliessen">
+        <span>&times;</span>
+      </button>
+    </div>
+    <div class="card-body">
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Vorname</label>
+        <input type="text" class="form-control" id="firstnameInput">
+      </div>
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Nachname</label>
+        <input type="text" class="form-control" id="lastnameInput">
+      </div>
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Email Adresse</label>
+        <input type="email" class="form-control" id="emailInput">
+      </div>
+      <div class="row mb-3">
+        <div class="col col-left">
+          <label for="passwordInput" class="form-label">Passwort</label>
+          <input type="password" class="form-control" id="passwordInput">
+        </div>
+        <div class="col col-right">
+          <label for="passwordRepeat" class="form-label">Passwort wiederholen</label>
+          <input type="password" class="form-control" id="passwordRepeat">
+        </div>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="acceptAGB" required="">
+        <label class="form-check-label" for="acceptAGB">
+          Ich akzeptiere die <a>AGBs</a>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Anmelden</button>
+      <div>
+        <a (click)="switchPage('loginform')" class="smallNote">Ich habe bereits einen Account.</a>
+      </div>
+    </div>
+  </form>
+</div>

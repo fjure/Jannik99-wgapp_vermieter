@@ -1,0 +1,15 @@
+<!--
+  Wechselt anhand von util.view zwischen den korrekten Ansichten hin und her. z.B. "loginform", "registrationform", "dashboard", etc.
+-->
+<div class="page">
+  <div class="pagetitlewrapper">
+    <h1>{{title}}</h1>
+  </div>
+
+  <div [ngSwitch]="util.view">
+    <app-loginform *ngSwitchCase="'loginform'"></app-loginform>
+    <app-front *ngSwitchCase="'front'"></app-front>
+    <app-register *ngSwitchCase="'register'"></app-register>
+    <app-controlpanel *ngSwitchCase="'controlpanel'"></app-controlpanel>
+  </div>
+</div>

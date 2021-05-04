@@ -1,0 +1,24 @@
+<div class="componentContent">
+  <form class="card" id="loginform">
+    <div class="card-title">
+      <h2>Login</h2>
+      <button (click)="util.switchPage('front')" class="close" aria-label="Schliessen">
+        <span>&times;</span>
+      </button>
+    </div>
+    <div class="card-body">
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Email Adresse</label>
+        <input type="email" class="form-control" id="emailInput">
+      </div>
+      <div class="mb-3">
+        <label for="passwordInput" class="form-label">Passwort</label>
+        <input type="password" class="form-control" id="passwordInput">
+      </div>
+      <button (click)="util.switchPage('controlpanel')" class="btn btn-primary">Anmelden</button>
+      <div>
+        <a class="smallNote">Ich habe mein Passwort vergessen.</a>
+      </div>
+    </div>
+  </form>
+</div>

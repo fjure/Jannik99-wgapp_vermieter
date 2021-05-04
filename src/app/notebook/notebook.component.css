@@ -1,0 +1,31 @@
+#notebook{
+  border: 1px solid black;
+  padding: 10px 10px 0 10px;
+}
+.new-note * {
+  height: 38px;
+ }
+
+.new-note div button i{
+  line-height: unset;
+}
+
+.note *{
+  display: inline;
+}
+
+.notetext{
+  background-color: #FFF;
+  color: #495057;
+  text-align: left;
+  flex: 1 1  auto;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  width: 1%;
+  margin-bottom: 0;
+}
+
+.note{
+  text-align: left;
+  margin-bottom: 10px;
+}

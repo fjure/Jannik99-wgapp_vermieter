@@ -1,0 +1,51 @@
+.componentContent{
+  padding: 5% 0 0 0;
+}
+
+#registerform .card-title *{
+  color: white;
+  display: inline;
+}
+
+#registerform .card-title{
+  margin-top: 15px;
+}
+
+.close{
+  margin-top: 5px;
+}
+
+#registerform{
+  background-color: rgba(50, 50, 50, 0.5);
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  color: #FFFF;
+}
+#registerform div{
+  width: 90%;
+  margin: auto;
+}
+.col{
+  padding: 0px;
+}
+.col-left {
+  padding-right: 20px;
+}
+
+.col-right {
+  padding-left: 20px;
+}
+.smallNote{
+  font-size: smaller;
+  cursor: pointer;
+}
+
+
+/* Kleine Displays, z.B. Tablet, Smartphone maxwidth: 850px */
+@media (max-width: 850px) {
+  #registerform{
+    width: 80%;
+    margin: auto;
+  }
+}

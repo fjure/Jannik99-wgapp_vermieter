@@ -1,0 +1,35 @@
+.componentContent{
+  padding: 5% 0 0 0;
+}
+
+#front{
+  background-color: rgba(50, 50, 50, 0.5);
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  color: #FFFF;
+}
+#front div{
+  width: 90%;
+  margin: auto;
+}
+
+#front div btn{
+  margin: auto;
+}
+
+.element-left {
+  margin-right: 20px;
+}
+
+.element-right {
+  margin-left: 20px;
+}
+
+/* Kleine Displays, z.B. Tablet, Smartphone maxwidth: 850px */
+@media (max-width: 850px) {
+  #front{
+    width: 80%;
+    margin: auto;
+  }
+}
